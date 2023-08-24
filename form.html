@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js"></script>
+</head>
+<body>
+    <div class="Parent">
+        <h1 class="caption">Validation Form </h1><br>
+        <div class="par-Child">
+            <form action="#" onsubmit="return validaton()" class="form">
+                <div class="form1">
+                    <label>Username:</label>
+                    <input type="text" name="user" class="form-control" id="user" autocomplete="off">
+                    <span  id="username" class="span1"></span>
+                </div>
+                <div class="form2">
+                    <label>Password:</label>
+                    <input type="text" name="name" class="form-control" id="pass" autocomplete="off">
+                </div>
+                <div class="form3">
+                    <label>Confirm Password:</label>
+                    <input type="text" name="con_pass" class="form-control" id="con-pass" autocomplete="off">
+                </div>
+                <div class="form4">
+                    <label>Mobile Number:</label>
+                    <input type="number" name="number" class="form-control" id="num" autocomplete="off">
+                </div>
+                <div class="form5">
+                    <label>Email:</label>
+                    <input type="email" name="user" class="form-control" id="email" autocomplete="off">
+                </div>
+                <button class="sub">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
